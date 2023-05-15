@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SpaceX Launcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Impact&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" /> 
+</head>
+<body>
+  <div class="background-image"></div>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">
+        <a href="#"><img src="spacex.gif" alt="Logo"></a>
+      </div>
+      <div class="filterdata">
+        <label for="years">Launch Year:</label>
+        <select name="year" id="year">
+          <option value="Select">Select Year</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+        </select>
+        <br>
+        <label for="launch">Successful Launch</label>
+        <select name="launch" id="launch">
+          <option value="">Select</option>
+          <option value="true">True</option>
+          <option value="false">False</option>
+        </select>
+        <br>
+        <label for="landing">Successful Landing</label>
+        <select name="landing" id="landing">
+          <option value="">Select</option>
+          <option value="true">True</option>
+          <option value="false">False</option>
+        </select>
+        <br>
+        <input type="button" value="Submit" id="submit" class="details">
+      </div>
+      <!-- Developer Section -->
+      <div class="developer-section">
+        <p>Developer:</p>
+      </div>
+
+      <div class="developer-section1">
+        <p>Yash Deo</p>
+      </div>
+    </div>
+    <div class="datasection">
+      <div id="loading" class="loader"></div>
+      <div id="flights" class="card-container"></div>
+    </div>
+  </div>
+</body>
+</html>
