@@ -1,30 +1,35 @@
-# SpaceX Launcher 
- 
- 1. Problem Statement:- To Develop a front-end application which would help users list and browse all launches by SpaceX program.
+# SpaceX Launcher
 
+This is a front-end application that allows users to list and browse all launches by the SpaceX program.
 
-#Installation 
-To install, simply clone this repository and run the command npm install. This should install all the required dependencies for you.
+## Installation
 
-#Running Project 
+To install the project, follow these steps:
 
-To open the project locally, go to the public folder and open the index.html file. 
+1. Clone this repository to your local machine.
+2. Run the command `npm install` to install all the required dependencies.
 
-#UI & Filter Implementation
+## Running the Project
 
-1. Filters and Launch Items details cards having SpaceX Launch Details fetched from the API:
-![image](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/3ed987ef-b00a-42ae-9ea9-1e19b692c335)
+To open the project locally, navigate to the `public` folder and open the `index.html` file in your preferred web browser.
 
-2. Applying the Launch Filters:
-![image](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/dad17255-bcec-47b1-aec7-8c8e0b1c3769)
-![image](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/4b148279-7aeb-4324-8b3a-c4d47e4ef5dd)
-![image](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/b8b87fee-3915-40dd-9f38-8f4cbc404912)
+## UI & Filter Implementation
 
-3. Mobile View
-![image](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/9c9c0a4a-0f6e-4e2f-8f99-e2a980189e27)
-![image](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/eae4be4f-ff21-4a2a-b625-52cacb8b0f5a)
+The application provides a user interface to browse and filter SpaceX launch details. Here are some screenshots of the implemented features:
 
+1. Filters and Launch Items details cards with SpaceX Launch Details fetched from the API:
+   ![Launch Items](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/3ed987ef-b00a-42ae-9ea9-1e19b692c335)
 
+2. Applying Launch Filters:
+   ![Filter 1](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/dad17255-bcec-47b1-aec7-8c8e0b1c3769)
+   ![Filter 2](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/4b148279-7aeb-4324-8b3a-c4d47e4ef5dd)
+   ![Filter 3](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/b8b87fee-3915-40dd-9f38-8f4cbc404912)
 
+3. Mobile View:
+   ![Mobile View 1](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/9c9c0a4a-0f6e-4e2f-8f99-e2a980189e27)
+   ![Mobile View 2](https://github.com/theyashdeo/SpaceXLauncher/assets/108831896/eae4be4f-ff21-4a2a-b625-52cacb8b0f5a)
 
-Developed By: Yash Deo
+## Developer
+
+This project was developed by Yash Deo.
+
